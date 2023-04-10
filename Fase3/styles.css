@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white; background-color:rgb(17, 163, 115);
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#logoimage{
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 66px;
+    height: 72px;
+}
+
+body {
+    background-color: #CCC;
+    width: 90%;
+    max-width: 1024px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: rgb(1, 65, 65); color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    width: 740px;
+    height: 56px;
+    list-style-type: none;
+    margin-bottom: 2px;
+    
+}   
+
+.menu>li{
+    float: left;
+}
+
+
+.menu>li a{
+    background-color: rgb(1, 65, 65);
+    color: white;
+    text-decoration: none;
+    padding: 20px 56px;
+    display: block;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.menu li a:hover{
+    background-color: rgb(17, 163, 115);
+}
+
+.menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover >ul{
+    display: block;
+}
+
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li ul{
+    right: 140px;
+}
+
+#P1 {
+color: black;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article {
+    grid-column: 1/4;
+    background-color:azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: black;
+    padding-left: 30px;
+
+}
+
+#foto1{
+    font-size: smaller;
+}
+
+.tcontenido>li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(17, 163, 115);
+}
+
+#imgprofile{
+    border-radius: 50%;
+    width: 48%;
+    height: 52%;
+}
+
+aside{
+    background-color: azure;
+    color: black;
+    padding: 10px;
+    grid-column: 4/5;
+    padding-right: 30px;
+}
+
+footer {
+background-color: rgb(17, 163, 115);
+color: white;
+text-align: center;
+padding: 10 px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
